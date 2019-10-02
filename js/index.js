@@ -9,16 +9,16 @@ $(document).ready(function(){
 
     // Link click actions
 
-    $('.data').click(function(){
-        window.open('https://bit.ly/vitgcpdata')
+    $('.data science').click(function(){
+        window.open('https://bit.ly/cgcgcpdatascience')
     })
 
-    $('.android').click(function(){
-        window.open('https://bit.ly/vitgcpapp')
+    $('.app development').click(function(){
+        window.open('https://bit.ly/cgcgcpappdev')
     })
 
     $('.ml').click(function(){
-        window.open('https://bit.ly/vitgcpdata')
+        window.open('https://bit.ly/cgcgcpdatascience')
     })
 
 })
