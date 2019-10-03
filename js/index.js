@@ -10,7 +10,7 @@ $(document).ready(function(){
         // Link click actions
 
     $('.data').click(function(){
-        modal.style.display = "block";
+        windows.open(modal.style.display = "block");
     })
 
     $('.android').click(function(){
