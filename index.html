@@ -80,37 +80,63 @@
             <div class="main-about-icon">
                 
                 <div class="icon-holder">
-                    <div class="icon data"></div>
+                    <div class="icon data" data-toggle="modal" data-target="#DataModal"></div>
                     <div class="icon-text">Data Science</div>
                 </div>
 
                 <div class="icon-holder">
-                    <div class="icon android"></div>
+                    <div class="icon android" data-toggle="modal" data-target="#AppModal"></div>
                     <div class="icon-text">Android</div>
                 </div>
 
                 <div class="icon-holder">
-                    <div class="icon ml"></div>
+                    <div class="icon ml" data-toggle="modal" data-target="#MLModal"></div>
                     <div class="icon-text">Machine Learning</div>
                 </div>
 
             </div>
             
         </div>
-       
         
-        <!-- The Modal -->
-        <div id="myModal" class="modal">
-        
-            <!-- Modal content -->
-              <div class="modal-content">
+        <!-- Data Modal -->
+        <div class="modal fade" id="DataModal" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Data Science track</h4>
+              </div>
+              <div class="modal-body">
+                <p>List of quest to be completed</p>
+                <ul>
+                  <li><a href="https://google.qwiklabs.com/quests/34?qlcampaign=6p-EDU-DSC-GCC-31">Baseline: Data, ML, AI</a></li>
+                  <li><a href="https://google.qwiklabs.com/quests/55?qlcampaign=6p-EDU-DSC-GCC-31">BigQuery For Data Analysis</a></li>
+                  <li><a href="https://google.qwiklabs.com/quests/28?qlcampaign=6p-EDU-DSC-GCC-31">Scientific Data Processing</a></li>
+                  <li><a href="https://google.qwiklabs.com/quests/25?qlcampaign=6p-EDU-DSC-GCC-31">Data Engineering</a></li>
+                  <li><a href="https://google.qwiklabs.com/quests/43?qlcampaign=6p-EDU-DSC-GCC-31">Data Science on the Google Cloud Platform</a></li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- App Modal -->
+        <div class="modal fade" id="AppModal" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
               <div class="modal-header">
                 <h4 class="modal-title">Applciation Development track</h4>
               </div>
               <div class="modal-body">
                 <p>List of quest to be completed</p>
                 <ul>
-                  <li><a href="https://google.qwiklabs.com/quests/37?qlcampaign=6p-EDU-DSC-GCC-31">Baseline: Deploy &amp; Develop</a></li>
+                  <li><a href="https://google.qwiklabs.com/quests/37?qlcampaign=6p-EDU-DSC-GCC-31">Baseline: Deploy &#38; Develop</a></li>
                   <li><a href="https://google.qwiklabs.com/quests/39?qlcampaign=6p-EDU-DSC-GCC-31">Websites and Web Applications</a></li>
                   <li><a href="https://google.qwiklabs.com/quests/26?qlcampaign=6p-EDU-DSC-GCC-31">Deploying Applications</a></li>
                   <li><a href="https://google.qwiklabs.com/quests/67?qlcampaign=6p-EDU-DSC-GCC-31">Cloud Development</a></li>
@@ -121,7 +147,34 @@
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
               </div>
             </div>
-        
+          </div>
+        </div>
+
+        <!-- ML Modal -->
+        <div class="modal fade" id="MLModal" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title">Machine Learning track</h4>
+              </div>
+              <div class="modal-body">
+                <p>List of quest to be completed</p>
+                <ul>
+                  <li><a href="https://google.qwiklabs.com/quests/34?qlcampaign=6p-EDU-DSC-GCC-31">Baseline: Data, ML, AI</a></li>
+                  <li><a href="https://google.qwiklabs.com/quests/82?qlcampaign=6p-EDU-DSC-GCC-31">Intro to ML: Language Processing</a> <span>OR</span> <a href="https://google.qwiklabs.com/quests/85?qlcampaign=6p-EDU-DSC-GCC-31">Intro to ML: Image Processing</a> </li>
+                  <li><a href="https://google.qwiklabs.com/quests/71?qlcampaign=6p-EDU-DSC-GCC-31">BigQuery for Machine Learning</a></li>
+                  <li><a href="https://google.qwiklabs.com/quests/83?qlcampaign=6p-EDU-DSC-GCC-31">Intermediate ML: TensorFlow on GCP</a></li>
+                  <li><a href="https://google.qwiklabs.com/quests/32?qlcampaign=6p-EDU-DSC-GCC-31">Machine Learning APIs</a></li>
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
         
         
         <!-- Rewards section -->
