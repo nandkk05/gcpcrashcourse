@@ -7,22 +7,6 @@ $(document).ready(function(){
         }, 500);
     })
 
-        // Link click actions
-
-    $('.data').click(function(){
-        windows.open(modal.style.display = "block");
-    })
-
-    $('.android').click(function(){
-        window.open('https://bit.ly/cgcgcpappdev')
-    })
-
-    $('.ml').click(function(){
-        window.open('https://bit.ly/cgcgcpdatascience')
-    })
-
-})
-
 window.addEventListener('beforeinstallprompt', (e) => {
   // Stash the event so it can be triggered later.
   deferredPrompt = e;
