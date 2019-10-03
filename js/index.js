@@ -10,7 +10,7 @@ $(document).ready(function(){
     // Link click actions
 
     $('.data').click(function(){
-        / Get the modal
+        // Get the modal
        var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
